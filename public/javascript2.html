@@ -24,49 +24,43 @@
     <section id="docs">
         <div class="docs-content">
             <div class="content">
-                <h1>Javascript - variable</h1>      
-                <p>JavaScript Variables can be declared in 4 ways:</p>
+                <h1>JavaScript - Variables</h1>
+                <p>JavaScript variables can be declared in several ways:</p>
                 <ul>
-                    <li>Automatically</li>
-                    <li>Using var</li>
-                    <li>Using let</li>
-                    <li>Using const</li>
+                    <li>Automatically (Implicit Declaration)</li>
+                    <li>Using <code>var</code></li>
+                    <li>Using <code>let</code></li>
+                    <li>Using <code>const</code></li>
                 </ul>
                 <p>It is considered good programming practice to always declare variables before use.</p>
-                <p>The var keyword was used in all JavaScript code from 1995 to 2015.</p>
-                <p>The let and const keywords were added to JavaScript in 2015.</p>
-                <p>The var keyword should only be used in code written for older browsers.</p>
-                <p>When to Use var, let, or const?</p>
+                <p>The <code>var</code> keyword was used in all JavaScript code from 1995 to 2015.</p>
+                <p>The <code>let</code> and <code>const</code> keywords were introduced in ECMAScript 2015 (ES6).</p>
+                <p>The <code>var</code> keyword should only be used in code intended for older environments where <code>let</code> and <code>const</code> are not supported.</p>
+                <p>When to use <code>var</code>, <code>let</code>, or <code>const</code>:</p>
                 <ul>
-                    <li> 1. Always declare variables</li>
-                    <li> 2. Always use const if the value should not be changed</li>
-                    <li>3. Always use const if the type should not be changed (Arrays and Objects)</li>
-                    <li>4. Only use let if you can't use const</li>
-                    <li>5. Only use var if you MUST support old browsers.</li>
+                    <li>1. Always declare variables.</li>
+                    <li>2. Use <code>const</code> if the value should not be changed.</li>
+                    <li>3. Use <code>const</code> if the reference type (like arrays and objects) should not be changed.</li>
+                    <li>4. Use <code>let</code> if you need a variable whose value might change.</li>
+                    <li>5. Use <code>var</code> only if you must support very old browsers.</li>
                 </ul>
-                <p>All JavaScript variables must be identified with unique names.</p>
-                <p>These unique names are called identifiers.</p>
-                <p>Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).</p>
-                <p>The general rules for constructing names for variables (unique identifiers) are:</p>
+                <p>All JavaScript variables must be identified with unique names called identifiers.</p>
+                <p>Identifiers can be short names (like <code>x</code> and <code>y</code>) or more descriptive names (like <code>age</code>, <code>sum</code>, <code>totalVolume</code>).</p>
+                <p>The general rules for constructing variable names (identifiers) are:</p>
                 <ul>
                     <li>Names can contain letters, digits, underscores, and dollar signs.</li>
-                    <li>Names must begin with a letter.</li>
-                    <li>Names can also begin with $ and _ (but we will not use it in this tutorial).</li>
-                    <li>Names are case sensitive (y and Y are different variables).</li>
+                    <li>Names must begin with a letter, underscore (<code>_</code>), or dollar sign (<code>$</code>).</li>
+                    <li>Names are case-sensitive (e.g., <code>y</code> and <code>Y</code> are different variables).</li>
                     <li>Reserved words (like JavaScript keywords) cannot be used as names.</li>
                 </ul>
-                <p>The "equal to" operator is written like == in JavaScript.</p>
-                <p>JavaScript variables can hold numbers like 100 and text values like "John Doe".</p>
-                <p>In programming, text values are called text strings.</p>
-                <p>JavaScript can handle many types of data, but for now, just think of numbers and strings.</p>
-                <p>Strings are written inside double or single quotes. Numbers are written without quotes.</p>
-                <p>If you put a number in quotes, it will be treated as a text string.</p>
-                <p>You cannot re-declare a variable declared with let or const.</p>
-                <p>This will not work:</p>
-                <p>If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.</p>
-                <p>Using the dollar sign is not very common in JavaScript, but professional programmers often use it as an alias for the main function in a JavaScript library.</p>
-                <p>In the JavaScript library jQuery, for instance, the main function $ is used to select HTML elements. In jQuery $("p"); means "select all p elements".</p>
-                <p>Using the underscore is not very common in JavaScript, but a convention among professional programmers is to use it as an alias for "private (hidden)" variables.</p>
+                <p>The equality operator in JavaScript is <code>==</code>, but it is recommended to use <code>===</code> for strict equality comparison.</p>
+                <p>JavaScript variables can hold numbers like <code>100</code> and text values (strings) like <code>"John Doe"</code>.</p>
+                <p>In programming, text values are called strings.</p>
+                <p>JavaScript handles various data types, but for now, consider numbers and strings. Strings are written inside quotes (single or double), and numbers are written without quotes.</p>
+                <p>If a number is placed in quotes, it is treated as a string.</p>
+                <p>You cannot re-declare a variable declared with <code>let</code> or <code>const</code> in the same scope.</p>
+                <p>Using the dollar sign (<code>$</code>) is not very common in general JavaScript code but is used in libraries like jQuery, where <code>$</code> is used to select HTML elements (e.g., <code>$("p")</code> selects all <code>&lt;p&gt;</code> elements).</p>
+                <p>The underscore (<code>_</code>) is not commonly used in JavaScript, but some developers use it as a convention for private or hidden variables.</p>
             </div>  
         </div>
         <div class="navbar">

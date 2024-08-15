@@ -24,84 +24,82 @@
     <section id="docs">
         <div class="docs-content">
             <div class="content">
-                <h1>Javascript - syntax</h1>
+                <h1>JavaScript - Syntax</h1>
                 <p>A computer program is a list of "instructions" to be "executed" by a computer.</p>
-                <p>In a programming language, these programming instructions are called statements.</p>
+                <p>In a programming language, these instructions are called statements.</p>
                 <p>A JavaScript program is a list of programming statements.</p>
                 <p>In HTML, JavaScript programs are executed by the web browser.</p>
-                <P>JavaScript programs (and JavaScript statements) are often called JavaScript code.</P>
-                <P>JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.</P>
-                <P>For best readability, programmers often like to avoid code lines longer than 80 characters.</P>
-                <P>If a JavaScript statement does not fit on one line, the best place to break it is after an operator:</P>
-                <P>Example</P>
+                <p>JavaScript programs (and statements) are often referred to as JavaScript code.</p>
+                <p>JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.</p>
+                <p>For best readability, programmers often avoid code lines longer than 80 characters.</p>
+                <p>If a JavaScript statement does not fit on one line, the best place to break it is after an operator:</p>
+                <p>Example:</p>
                 <ul>
                     <li>let x, y, z;    // Statement 1</li>
-                    <li>x = 5;          // Statement 2</li>
-                    <li>y = 6;          // Statement 3</li>
-                    <li>z = x + y;      // Statement 4</li>
+                    <li>x = 5;         // Statement 2</li>
+                    <li>y = 6;         // Statement 3</li>
+                    <li>z = x + y;     // Statement 4</li>
                 </ul>
-                <p>When separated by semicolons, multiple statements on one line are allowed:</p>
+                <p>Multiple statements on one line are allowed if separated by semicolons:</p>
                 <p>a = 5; b = 6; c = a + b;</p>
-                <p>On the web, you might see examples without semicolons.</p>
-                <p>Ending statements with semicolons is not required, but highly recommended.</p>
-                <p>JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.</p>
+                <p>On the web, you might see examples without semicolons. Ending statements with semicolons is not required but is highly recommended for clarity.</p>
                 <p>The following lines are equivalent:</p>
                 <ul>
                     <li>let person = "Hege";</li>
                     <li>let person="Hege";</li>
                 </ul>
-                <p>A good practice is to put spaces around operators ( = + - * / ):</p>
+                <p>A good practice is to put spaces around operators (<code>=</code>, <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>):</p>
                 <p>let x = y + z;</p>
-                <p>JavaScript Line Length and Line Breaks</p>
-                <p>JavaScript statements can be grouped together in code blocks, inside curly brackets {...}.</p>
-                <p>The purpose of code blocks is to define statements to be executed together.</p>
-                <p>One place you will find statements grouped together in blocks, is in JavaScript functions:</p>
+                <p><strong>JavaScript Line Length and Line Breaks</strong></p>
+                <p>JavaScript statements can be grouped together in code blocks, inside curly brackets <code>{ ... }</code>.</p>
+                <p>The purpose of code blocks is to define statements that are executed together.</p>
+                <p>One place where you will find statements grouped in blocks is in JavaScript functions:</p>
                 <ul>
-                    <li>var	     ------ Declares a variable</li>
-                    <li>let	     ------ Declares a variable</li>
-                    <li>const	     ------ Declares a Constant</li>
-                    <li>if	     ------ Marks a block of statements to be executed on a condition</li>
-                    <li>switch   ------	Marks a block of statements to be executed in different cases</li>
-                    <li>for	     ------ Marks a block of statements to be executed in a loop</li>
-                    <li>function ------	Declares a function</li>
-                    <li>return	 ------ Exits a function</li>
-                    <li>try	     ------ Implements error handling to a block of statements</li>
+                    <li><code>var</code> — Declares a variable</li>
+                    <li><code>let</code> — Declares a variable</li>
+                    <li><code>const</code> — Declares a constant</li>
+                    <li><code>if</code> — Marks a block of statements to be executed based on a condition</li>
+                    <li><code>switch</code> — Marks a block of statements to be executed in different cases</li>
+                    <li><code>for</code> — Marks a block of statements to be executed in a loop</li>
+                    <li><code>function</code> — Declares a function</li>
+                    <li><code>return</code> — Exits a function</li>
+                    <li><code>try</code> — Implements error handling for a block of statements</li>
                 </ul>
-                <p>JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.#</p>
+                <p>JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.</p>
+                <p><strong>Fixed Values vs. Variable Values</strong></p>
                 <ul>
-                    <li>Fixed values</li>
-                    <li>Variable values</li>
+                    <li>Fixed values include numbers and strings.</li>
+                    <li>Variable values are called variables.</li>
                 </ul>
-                <p>Variable values are called Variables.</p>
                 <p>The two most important syntax rules for fixed values are:</p>
                 <ul>
-                    <li>1. Numbers are written with or without decimals:</li>
-                    <li>2. Strings are text, written within double or single quotes:</li>
+                    <li>1. Numbers can be written with or without decimals.</li>
+                    <li>2. Strings are text written within double or single quotes.</li>
                 </ul>
                 <p>In a programming language, variables are used to store data values.</p>
-                <p>JavaScript uses the keywords var, let and const to declare variables.</p>
-                <p>An equal sign is used to assign values to variables.</p>
-                <p>JavaScript uses arithmetic operators ( + - * / ) to compute values:</p>
-                <p>An expression is a combination of values, variables, and operators, which computes to a value.</p>
+                <p>JavaScript uses <code>var</code>, <code>let</code>, and <code>const</code> to declare variables.</p>
+                <p>An equal sign <code>=</code> is used to assign values to variables.</p>
+                <p>JavaScript uses arithmetic operators (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>) to compute values.</p>
+                <p>An expression is a combination of values, variables, and operators that computes to a value.</p>
                 <p>The computation is called an evaluation.</p>
-                <p>The values can be of various types, such as numbers and strings.</p>
-                <p>Not all JavaScript statements are "executed".</p>
-                <p>Code after double slashes // or between /* and */ is treated as a comment.</p>
-                <p>Identifiers are JavaScript names.</p>
-                <p>Identifiers are used to name variables and keywords, and functions.</p>
-                <p>The rules for legal names are the same in most programming languages.</p>
-                <p>A JavaScript name must begin with:</p>
+                <p>Values can be of various types, such as numbers and strings.</p>
+                <p>Not all JavaScript statements are executed. Code after double slashes <code>//</code> or between <code>/*</code> and <code>*/</code> is treated as comments.</p>
+                <p><strong>Identifiers</strong></p>
+                <p>Identifiers are JavaScript names used to name variables, functions, and other entities.</p>
+                <p>The rules for legal names are consistent across most programming languages:</p>
                 <ul>
-                    <li>A letter (A-Z or a-z)</li>
-                    <li>A dollar sign ($)</li>
-                    <li>Or an underscore (_)</li>
+                    <li>A JavaScript name must begin with:</li>
+                    <ul>
+                        <li>A letter (A-Z or a-z)</li>
+                        <li>A dollar sign (<code>$</code>)</li>
+                        <li>An underscore (<code>_</code>)</li>
+                    </ul>
+                    <li>Subsequent characters may be letters, digits, underscores, or dollar signs.</li>
+                    <li>Names are case-sensitive (e.g., <code>y</code> and <code>Y</code> are different variables).</li>
+                    <li>Reserved words (JavaScript keywords) cannot be used as names.</li>
                 </ul>
-                <p>Subsequent characters may be letters, digits, underscores, or dollar signs.</p>
-                <p>Multi-line comments start with /* and end with */.</p>
-                <p>Any text between /* and */ will be ignored by JavaScript.</p>
-                <p>It is most common to use single line comments.</p>
-                <p>Block comments are often used for formal documentation.</p>
-                <p>Adding // in front of a code line changes the code lines from an executable line to a comment.</p>    
+                <p>Multi-line comments start with <code>/*</code> and end with <code>*/</code>. Any text between these markers will be ignored by JavaScript.</p>
+                <p>Single-line comments use <code>//</code>. This converts the rest of the line into a comment.</p>    
             </div>  
         </div>
         <div class="navbar">
