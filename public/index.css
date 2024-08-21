@@ -455,3 +455,25 @@ footer .copyright{
   background: blue;
 }
 
+#search{
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: solid 1px black;
+}
+#mymenu{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+}
+#mymenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#mymenu li a:hover{
+  background-color: #040228;
+  color: #fff;
+}
