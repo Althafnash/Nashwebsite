@@ -1,10 +1,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://kit.fontawesome.com/eda88b969f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nash MemoMinds</title>
+    <title>Nash search enginge</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
     <section id="header">
@@ -15,21 +15,50 @@
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="Notes.html">Notes</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="Search.html">Search</a></li>                
+                <li><a href="Search.html">Search</a></li>
                 <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
             </ul>
         </div>
     </section>
-
-    <section id="hero">
-        <h4>Nash MemoMinds</h4>
-        <h2>Notes from Science to English</h2>
-        <h1>All-in-one Notes</h1>
-        <button><a href="Notes.html">Learn More</a></button>
-        <button><a href="Search.html">Search</a></button>
-        <button><a href="Dashboard.html">Dashboard</a></button>
-    </section>
-
+    <div class="engine">
+        <input type="text" id="search" onkeyup="search()" placeholder="search" title="type in a catogary">
+        <ul id="mymenu">    
+            <li><a href="bio1.html">Classification of Animals</a></li>
+            <li><a href="chem1.html">The arrangement of particals in matter</a></li>
+            <li><a href="chem2.html">Atoms</a></li>
+            <li><a href="chem3.html">Chromotography Explained</a></li>
+            <li><a href="chem4.html">Charactertics of metals</a></li>
+            <li><a href="chem5.html">Charactertics of Non-Metals</a></li>
+            <li><a href="chem6.html">Speration Methods</a></li>
+            <li><a href="Histroy1.html">The ancient soceity of sri lanka</a></li>
+            <li><a href="Histroy2.html">The social organization of ancient soceity</a></li>
+            <li><a href="ict1.html">Generation of computers</a></li>
+            <li><a href="ict2.html">Opreating system</a></li>
+            <li><a href="javascript.html">Javascript</a></li>
+            <li><a href="ict3.html">System Development Life cycle</a></li>
+            <li><a href="laws.html">Sprite of Laws</a></li>
+            <li><a href="Art1.html">The art of thinking -- Authority Bias</a></li>
+            <li><a href="Art2.html">The art of thinking -- Clusters Illusion</a></li>
+            <li><a href="Art3.html">The art of thinking -- Confirmation Bias</a></li>
+            <li><a href="Art4.html">The art of thinking -- Contrast Effect</a></li>
+            <li><a href="Art5.html">The art of thinking -- What Are Cognitive Errors?</a></li>
+            <li><a href="Art6.html">The art of thinking -- Confirmation Bias</a></li>
+            <li><a href="Art7.html">The art of thinking -- Reciprocity</a></li>
+            <li><a href="Art8.html">The art of thinking -- Social Proof</a></li>
+            <li><a href="Art9.html">The art of thinking -- Swimmer's Body Illusion </a></li>
+            <li><a href="Art10.html">The art of thinking -- Sunk Cost Fallacy</a></li>
+            <li><a href="Art11.html">The art of thinking -- Survivorship Bias</a></li>
+            <li><a href="phy1.html">Density</a></li>
+            <li><a href="phy2.html">Force</a></li>
+            <li><a href="phy3.html">Friction</a></li>
+            <li><a href="phy4.html">Light</a></li>
+            <li><a href="phy5.html">Momeuntum_and_gravity</a></li>
+            <li><a href="phy6.html">Light</a></li>
+            <li><a href="phy7.html">Simple machine</a></li>
+            <li><a href="phy8.html">Motion-introducation</a></li>
+            <li><a href="phy9.html">Newtons laws</a></li>
+        </ul>
+    </div>
     <section id="newsletter" class="section-p1" class="section-m1">
         <div class="newstext">
             <h4>Sgin up for the Newsleter</h4>
