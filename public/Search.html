@@ -1,127 +1,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/eda88b969f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nash search enginge</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>Nash MemoMinds</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <section id="header">
-        <a href="#"><img src="img/logo.png" class="logo" alt="" ></a>
+    <nav>
+        <div class="logo">Logo</div>
 
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="Notes.html">Notes</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Search.html">Search</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
-            </ul>
+        <div class="links">
+            <a href="Home.html">Home</a>
+            <a href="search.html">doc</a>
+            <a href="About.html">About Us</a>
         </div>
-    </section>
+    </nav>
+
     <div class="engine">
         <input type="text" id="search" onkeyup="search()" placeholder="search" title="type in a catogary">
         <ul id="mymenu">    
             <li><a href="bio1.html">Classification of Animals</a></li>
-            <li><a href="chem1.html">The arrangement of particals in matter</a></li>
-            <li><a href="chem2.html">Atoms</a></li>
-            <li><a href="chem3.html">Chromotography Explained</a></li>
-            <li><a href="chem4.html">Charactertics of metals</a></li>
-            <li><a href="chem5.html">Charactertics of Non-Metals</a></li>
-            <li><a href="chem6.html">Speration Methods</a></li>
+            <li><a href="chemistry1.html">The arrangement of particals in matter</a></li>
+            <li><a href="chemistry2.html">Atoms</a></li>
+            <li><a href="chemistry3.html">Chromotography Explained</a></li>
+            <li><a href="chemistry4.html">Charactertics of metals</a></li>
+            <li><a href="chemistry5.html">Charactertics of Non-Metals</a></li>
+            <li><a href="chemistry6.html">Speration Methods</a></li>
             <li><a href="Histroy1.html">The ancient soceity of sri lanka</a></li>
             <li><a href="Histroy2.html">The social organization of ancient soceity</a></li>
-            <li><a href="ict1.html">Generation of computers</a></li>
-            <li><a href="ict2.html">Opreating system</a></li>
-            <li><a href="javascript.html">Javascript</a></li>
-            <li><a href="ict3.html">System Development Life cycle</a></li>
+            <li><a href="ICT1.html">Generation of computers</a></li>
+            <li><a href="ICT2.html">Opreating system</a></li>
+            <li><a href="Javascript1.html">Javascript - Introduction</a></li>
+            <li><a href="Javascript2.html">Javascript - Variables</a></li>
+            <li><a href="Javascript3.html">Javascript - Syntax</a></li>
+            <li><a href="Javascript4.html">Javascript - HTML</a></li>
+            <li><a href="Javascript5.html">Javascript - const</a></li>
+            <li><a href="Javascript6.html">Javascript - Let</a></li>
+            <li><a href="ICT3.html">System Development Life cycle</a></li>
             <li><a href="laws.html">Sprite of Laws</a></li>
-            <li><a href="Art1.html">The art of thinking -- Authority Bias</a></li>
-            <li><a href="Art2.html">The art of thinking -- Clusters Illusion</a></li>
-            <li><a href="Art3.html">The art of thinking -- Confirmation Bias</a></li>
-            <li><a href="Art4.html">The art of thinking -- Contrast Effect</a></li>
-            <li><a href="Art5.html">The art of thinking -- What Are Cognitive Errors?</a></li>
-            <li><a href="Art6.html">The art of thinking -- Confirmation Bias</a></li>
-            <li><a href="Art7.html">The art of thinking -- Reciprocity</a></li>
-            <li><a href="Art8.html">The art of thinking -- Social Proof</a></li>
-            <li><a href="Art9.html">The art of thinking -- Swimmer's Body Illusion </a></li>
-            <li><a href="Art10.html">The art of thinking -- Sunk Cost Fallacy</a></li>
-            <li><a href="Art11.html">The art of thinking -- Survivorship Bias</a></li>
-            <li><a href="phy1.html">Density</a></li>
-            <li><a href="phy2.html">Force</a></li>
-            <li><a href="phy3.html">Friction</a></li>
-            <li><a href="phy4.html">Light</a></li>
-            <li><a href="phy5.html">Momeuntum_and_gravity</a></li>
-            <li><a href="phy6.html">Light</a></li>
-            <li><a href="phy7.html">Simple machine</a></li>
-            <li><a href="phy8.html">Motion-introducation</a></li>
-            <li><a href="phy9.html">Newtons laws</a></li>
+            <li><a href="Art_of_Thinking.html">The art of thinking -- Authority Bias</a></li>
+            <li><a href="Art_of_Thinking2.html">The art of thinking -- Clusters Illusion</a></li>
+            <li><a href="Art_of_Thinking3.html">The art of thinking -- Confirmation Bias</a></li>
+            <li><a href="Art_of_Thinking4.html">The art of thinking -- Contrast Effect</a></li>
+            <li><a href="Art_of_Thinking5.html">The art of thinking -- What Are Cognitive Errors?</a></li>
+            <li><a href="Art_of_Thinking6.html">The art of thinking -- Confirmation Bias</a></li>
+            <li><a href="Art_of_Thinking7.html">The art of thinking -- Reciprocity</a></li>
+            <li><a href="Art_of_Thinking8.html">The art of thinking -- Social Proof</a></li>
+            <li><a href="Art_of_Thinking9.html">The art of thinking -- Swimmer's Body Illusion </a></li>
+            <li><a href="Art_of_Thinking10.html">The art of thinking -- Sunk Cost Fallacy</a></li>
+            <li><a href="Art_of_Thinking11.html">The art of thinking -- Survivorship Bias</a></li>
+            <li><a href="Physics1.html">Density</a></li>
+            <li><a href="Physics2.html">Force</a></li>
+            <li><a href="Physics3.html">Friction</a></li>
+            <li><a href="Physics4.html">Light</a></li>
+            <li><a href="Physics5.html">Momeuntum_and_gravity</a></li>
+            <li><a href="Physics6.html">Light</a></li>
+            <li><a href="Physics7.html">Simple machine</a></li>
+            <li><a href="Physics8.html">Motion-introducation</a></li>
+            <li><a href="Physics9.html">Newtons laws</a></li>
         </ul>
     </div>
-    <section id="newsletter" class="section-p1" class="section-m1">
-        <div class="newstext">
-            <h4>Sgin up for the Newsleter</h4>
-            <p>To Get information on <span>new topics</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Enter your Email">
-            <button class="normal">Sgin up</button>
-        </div>
-    </section>
 
-    <footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="img/logo.png" alt="" >
-            <h4>Contact</h4>
-            <p><strong>Adresss: </strong> 562 weligton road, street 32 , San Fransico</p>
-            <p><strong>Phone: </strong> +01 2222 365 / (+91) 01 2222 365</p>
-            <p><strong>Hours: </strong> 10:00 - 18:00 , Mon - Sat</p>
-            <div class="follow">
-                <h4>Follow us</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <h4>About</h4>
-            <a href="#">About us</a>
-            <a href="#">Notes</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Trems and conditions</a>
-            <a href="#">Contact Us</a>
-        </div>
-
-        <div class="col">
-            <h4>Topics</h4>
-            <a href="#">Science</a>
-            <a href="#">Maths</a>
-            <a href="#">English</a>
-            <a href="#">ICT</a>
-            <a href="#">Books</a>
-        </div>
-
-        <div class="col-install">
-            <h4>install app</h4>
-            <p>From App store to Google play</p>
-            <div class="row">
-                <img src="img/pay/app.jpg" alt="">
-                <img src="img/pay/play.jpg" alt="">
-                <p>Secured payment Gateways</p>
-                <img src="img/pay/pay.png" alt="">
-            </div>
-
-            <div class="copyright">
-                <p>@ 2024 Althafnash creations</p>
-            </div>
-        </div>
+    <footer>
+        <p>NashMids @2024 </p>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -4,131 +4,58 @@
     <script src="https://kit.fontawesome.com/eda88b969f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nash MemoMinds - Biologhy</title>
+    <title>Nash MemoMinds</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <section id="header">
-        <a href="#"><img src="img/logo.png" class="logo" alt="" ></a>
+    <nav>
+        <div class="logo">Logo</div>
 
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="Notes.html">Notes</a></li>
-                <li><a href="about.html">About</a></li>
-                  <li><a href="Search.html">Search</a></li>                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
-            </ul>
+        <div class="links">
+            <a href="Home.html">Home</a>
+            <a href="search.html">doc</a>
+            <a href="About.html">About Us</a>
         </div>
-    </section>
+    </nav>
 
-    <section id="docs">
-        <div class="docs-content">
+    <section class="docs-content">
+        <div class="sidebar">
+            <a href="Home.html">Home</a>
+            <a href="search.html">doc</a>
+            <a href="About.html">About Us</a>
+        </div>
+        <div class="body">
             <div class="content">
-                <h1>JavaScript - const</h1>
-                <p>The <code>const</code> keyword was introduced in ES6 (2015)</p>
-                <p>Variables defined with <code>const</code> cannot be redeclared.</p>
-                <p>Variables defined with <code>const</code> cannot be reassigned.</p>
-                <p>Variables defined with <code>const</code> have block scope.</p>
-                <p>When to use JavaScript <code>const</code>?</p>
+                <h1>JavaScript - Let</h1>
+                <p>The <div class="code">let</div> keyword was introduced in ES6 (2015).</p>
+
+                <p>Variables defined with <div class="code">let</div>:</p>
                 <ul>
-                    <li>Always declare a variable with <code>const</code> when you know that the value should not be changed.</li>
+                    <li>Cannot be redeclared.</li>
+                    <li>Must be declared before use.</li>
+                    <li>Have block scope.</li>
                 </ul>
-                <p>Use <code>const</code> when you declare:</p>
-                <ul>
-                    <li>A new Array</li>
-                    <li>A new Object</li>
-                    <li>A new Function</li>
-                    <li>A new RegExp</li>
-                    <li>Constant Objects and Arrays</li>
-                </ul>
-                <p>The keyword <code>const</code> is a little misleading.</p>
-                <p>It does not define a constant value. It defines a constant reference to a value.</p>
-                <p>Because of this, you can NOT:</p>
-                <ul>
-                    <li>Reassign a constant value</li>
-                    <li>Reassign a constant array</li>
-                    <li>Reassign a constant object</li>
-                </ul>
-                <p>But you CAN:</p>
-                <ul>
-                    <li>Change the elements of a constant array</li>
-                    <li>Change the properties of a constant object</li>
-                </ul>
-                <p>Variables defined with <code>var</code> are hoisted to the top and can be initialized at any time.</p>
-                <p>If you want to learn more about hoisting, study the chapter on JavaScript Hoisting.</p>
-                <p>Variables defined with <code>const</code> are also hoisted to the top, but not initialized.</p>
-                <p>Meaning: Using a <code>const</code> variable before it is declared will result in a <code>ReferenceError</code>.</p>    ---
+
+                <p>Before ES6 (2015), JavaScript had only global scope and function scope.</p>
+
+                <p>ES6 introduced two important new JavaScript keywords: <div class="code">let</div> and <div class="code">const</div>, which provide block scope in JavaScript.</p>
+
+                <p>Variables declared inside a <div class="code">{ }</div> block cannot be accessed from outside the block.</p>
+
+                <p>Variables declared with the <div class="code">var</div> keyword do NOT have block scope.</p>
+                <p>Variables defined with <div class="code">var</div> are hoisted to the top of their function or global scope and can be initialized at any time.</p>
+
+                <p>Variables defined with <div class="code">let</div> are also hoisted to the top of their block, but are not initialized.</p>
+
+                <p>This means that using a <div class="code">let</div> variable before it is declared will result in a <div class="code">ReferenceError</div>.</p>
             </div>  
         </div>
-        <div class="navbar">
-            <a href="#">Hello</a>
-        </div>
     </section>
 
-    <section id="newsletter" class="section-p1" class="section-m1">
-        <div class="newstext">
-            <h4>Sgin up for the Newsleter</h4>
-            <p>To Get information on <span>new topics</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Enter your Email">
-            <button class="normal">Sgin up</button>
-        </div>
-    </section>
-
-    <footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="img/logo.png" alt="" >
-            <h4>Contact</h4>
-            <p><strong>Adresss: </strong> 562 weligton road, street 32 , San Fransico</p>
-            <p><strong>Phone: </strong> +01 2222 365 / (+91) 01 2222 365</p>
-            <p><strong>Hours: </strong> 10:00 - 18:00 , Mon - Sat</p>
-            <div class="follow">
-                <h4>Follow us</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <h4>About</h4>
-            <a href="#">About us</a>
-            <a href="#">Notes</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Trems and conditions</a>
-            <a href="#">Contact Us</a>
-        </div>
-
-        <div class="col">
-            <h4>Topics</h4>
-            <a href="#">Science</a>
-            <a href="#">Maths</a>
-            <a href="#">English</a>
-            <a href="#">ICT</a>
-            <a href="#">Books</a>
-        </div>
-
-        <div class="col-install">
-            <h4>install app</h4>
-            <p>From App store to Google play</p>
-            <div class="row">
-                <img src="img/pay/app.jpg" alt="">
-                <img src="img/pay/play.jpg" alt="">
-                <p>Secured payment Gateways</p>
-                <img src="img/pay/pay.png" alt="">
-            </div>
-
-            <div class="copyright">
-                <p>@ 2024 Althafnash creations</p>
-            </div>
-        </div>
+    <footer>
+        <p>NashMids @2024 </p>
     </footer>
 
-
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

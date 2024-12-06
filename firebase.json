@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "nash-website-367",
+    "site": "nash-website-624d9", 
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -13,15 +13,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "emulators": {
-    "hosting": {
-      "port": 5000
-    },
-    "ui": {
-      "enabled": true,
-      "port": 3000
-    },
-    "singleProjectMode": true
   }
 }
