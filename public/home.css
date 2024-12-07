@@ -108,7 +108,7 @@ button:hover {
 
 .About-cards {
     flex: 0 1 300px;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
